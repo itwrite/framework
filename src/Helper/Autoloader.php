@@ -57,7 +57,7 @@ class Autoloader
      */
     public static function autoload($className)
     {
-        $className = $className{0} == '\\' ? substr($className, 1) : $className;
+        $className = $className[0] == '\\' ? substr($className, 1) : $className;
 
         foreach (self::$prefixArr as $prefix => $baseDirectory) {
 

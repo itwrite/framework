@@ -1,7 +1,11 @@
 {
     "name": "itwri/framework",
+    "type": "library",
+    "license": "MIT",
     "require": {
-        "php":"^7.0"
+        "php":"^7.0",
+        "itwri/container": "dev-master",
+        "itwri/database":"dev-master"
     },
     "authors": [
         {
