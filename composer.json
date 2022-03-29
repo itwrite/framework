@@ -4,8 +4,8 @@
     "license": "MIT",
     "require": {
         "php":"^7.0",
-        "itwri/container": "dev-master",
-        "itwri/database":"dev-master"
+        "itwri/container": "^1.0",
+        "itwri/database":"^1.0"
     },
     "authors": [
         {
